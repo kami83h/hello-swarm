@@ -11,7 +11,7 @@ public class HelloResource {
     @GET
     @Path("/hello")
     @Produces("text/plain")
-    public String hola() {
+    public String hello() {
         String hostname = System.getenv().getOrDefault("HOSTNAME", "unknown");
         return "Hello world from host ["+hostname+"]\n";
     }
