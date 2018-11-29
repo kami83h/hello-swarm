@@ -20,6 +20,6 @@ public class HelloResource {
     @Path("/health")
     @Produces("text/plain")
     public String health() {
-        return "New message\n";
+        return "New message ,openshift\n";
     }
 }
