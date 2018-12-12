@@ -17,9 +17,9 @@ public class HelloResource {
     }
 
     @GET
-    @Path("/health")
+    @Path("/")
     @Produces("text/plain")
     public String health() {
-        return "Hello\n";
+        return "Hello openshift\n";
     }
 }
